@@ -8,11 +8,14 @@ use std::io;
 use std::io::Read;
 
 quick_error! {
+    /// Wraps all errors this library can produce
     #[derive(Debug)]
     pub enum LoadError {
+        /// IO Error
         Io(err: io::Error) {
             from()
         }
+        /// TOML parsing error
         Parse(err: Vec<ParserError>) {
             from()
         }
