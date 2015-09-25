@@ -1,6 +1,6 @@
 [package]
 name = "toml-loader"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Kerhong <edgars.baduns@gmail.com>"]
 description = "Load and parse toml files easily"
 keywords = ["config", "toml"]
