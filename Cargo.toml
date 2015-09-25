@@ -1,0 +1,15 @@
+[package]
+name = "toml-loader"
+version = "0.1.0"
+authors = ["Kerhong <edgars.baduns@gmail.com>"]
+description = "Load and parse toml files easily"
+keywords = ["config", "toml"]
+repository = "https://github.com/kerhong/toml-loader"
+documentation = "https://kerhong.github.io/toml-loader"
+
+[dependencies]
+toml = "0.1.22"
+quick-error = "0.1.3"
+
+[dev-dependencies]
+tempfile = "~1.1.1"
