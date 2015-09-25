@@ -6,6 +6,8 @@ description = "Load and parse toml files easily"
 keywords = ["config", "toml"]
 repository = "https://github.com/kerhong/toml-loader"
 documentation = "https://kerhong.github.io/toml-loader"
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 toml = "0.1.22"
