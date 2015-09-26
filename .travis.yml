@@ -9,6 +9,10 @@ addons:
       - libelf-dev
       - libdw-dev
 
+branches:
+  only:
+    - master
+
 rust:
   - nightly
   - beta
